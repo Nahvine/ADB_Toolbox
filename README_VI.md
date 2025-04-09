@@ -1,7 +1,5 @@
 # ADB Toolbox
 
-![ADB Toolbox Logo](https://i.imgur.com/placeholder-for-logo.png)
-
 ## 📱 Tổng Quan
 
 ADB Toolbox là một công cụ dòng lệnh (CLI) giúp người dùng điều khiển thiết bị Android thông qua ADB (Android Debug Bridge) mà không cần nhớ các lệnh phức tạp. Phần mềm cung cấp giao diện thân thiện và dễ sử dụng với các menu tương tác.

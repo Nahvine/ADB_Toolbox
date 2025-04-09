@@ -59,17 +59,17 @@ ADB Toolbox is a command-line interface (CLI) tool that helps users control Andr
 ```
 adb_toolbox/
 │
-├── main.py                  # Điểm khởi chạy
-├── commands/                # Các module lệnh
-│   ├── device_check.py      # Kiểm tra thiết bị
-│   ├── system_settings.py   # Cài đặt hệ thống
-│   └── performance_boost.py # Tăng hiệu suất
-├── utils/                   # Các tiện ích
-│   ├── logger.py            # Module ghi log
-│   └── ui_helper.py         # Hỗ trợ giao diện
-├── config/                  # Cấu hình
-│   └── presets.json         # Cấu hình có sẵn
-└── logs/                    # Thư mục chứa file log
+├── main.py                  
+├── commands/                
+│   ├── device_check.py      
+│   ├── system_settings.py   
+│   └── performance_boost.py 
+├── utils/                   
+│   ├── logger.py            
+│   └── ui_helper.py        
+├── config/                  
+│   └── presets.json         
+└── logs/                    
 ```
 
 ## 🔒 Permissions

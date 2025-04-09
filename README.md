@@ -3,11 +3,9 @@
 [![English](https://img.shields.io/badge/Language-English-blue.svg)](README.md)
 [![Vietnamese](https://img.shields.io/badge/Language-Tiếng%20Việt-green.svg)](README_VI.md)
 
-![ADB Toolbox Logo](https://i.imgur.com/placeholder-for-logo.png)
+## 📱 Overview
 
-## 📱 Tổng Quan
-
-ADB Toolbox là một công cụ dòng lệnh (CLI) giúp người dùng điều khiển thiết bị Android thông qua ADB (Android Debug Bridge) mà không cần nhớ các lệnh phức tạp. Phần mềm cung cấp giao diện thân thiện và dễ sử dụng với các menu tương tác.
+ADB Toolbox is a command-line interface (CLI) tool that helps users control Android devices through ADB (Android Debug Bridge) without having to remember complex commands. The software provides a user-friendly interface with interactive menus.
 
 ## ✨ Key Features
 

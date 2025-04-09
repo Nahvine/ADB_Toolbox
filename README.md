@@ -1,54 +1,62 @@
 # ADB Toolbox
 
+[![English](https://img.shields.io/badge/Language-English-blue.svg)](README.md)
+[![Vietnamese](https://img.shields.io/badge/Language-Tiếng%20Việt-green.svg)](README_VI.md)
+
 ![ADB Toolbox Logo](https://i.imgur.com/placeholder-for-logo.png)
 
 ## 📱 Tổng Quan
 
 ADB Toolbox là một công cụ dòng lệnh (CLI) giúp người dùng điều khiển thiết bị Android thông qua ADB (Android Debug Bridge) mà không cần nhớ các lệnh phức tạp. Phần mềm cung cấp giao diện thân thiện và dễ sử dụng với các menu tương tác.
 
-## ✨ Tính Năng Chính
+## ✨ Key Features
 
-- 🔍 **Kiểm tra thiết bị kết nối**: Hiển thị danh sách thiết bị Android đang kết nối
-- 🚀 **Các lệnh ADB nhanh**: Thực hiện nhanh các lệnh như reboot, recovery, logcat
-- ⚙️ **Tùy chỉnh hệ thống ẩn**: Điều chỉnh các cài đặt system, secure, global
-- 🧹 **Dọn rác & Tăng tốc**: Xóa cache ứng dụng, đóng ứng dụng nền, tối ưu hiệu suất
-- 📊 **Thay đổi DPI & Scale**: Điều chỉnh mật độ màn hình và tỷ lệ phông chữ
-- ⏱️ **Shortcut cấu hình sẵn**: Chạy chuỗi lệnh từ file cấu hình JSON
-- 📝 **Ghi log & lịch sử**: Lưu lại các thao tác đã thực hiện trong file log
+- 🔍 **Check connected devices**: Display list of connected Android devices
+- 🚀 **Quick ADB commands**: Quickly execute commands like reboot, recovery, logcat
+- ⚙️ **Hidden system settings**: Adjust system, secure, global settings
+- 🧹 **Cleanup & Performance Boost**: Clear app cache, close background apps, optimize performance
+- 📊 **Change DPI & Scale**: Adjust screen density and font scale
+- ⏱️ **Preset shortcuts**: Run command chains from JSON configuration file
+- 📝 **Logging & history**: Save performed operations in log file
 
-## 🔧 Yêu Cầu Hệ Thống
+## 🔧 System Requirements
 
-- Python 3.6 trở lên
-- Đã cài đặt ADB (Android Debug Bridge)
-- Các thư viện Python: rich, questionary
+- Python 3.6 or higher
+- ADB (Android Debug Bridge) installed
+- Python libraries: rich, questionary
 
-## 📋 Cài Đặt
+## 📋 Installation
 
-1. Clone repository này:
+1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/adb-toolbox.git
-   cd adb-toolbox
+   git clone https://github.com/Nahvine/ADB_Toolbox.git
+   cd ADB_Toolbox
    ```
 
-2. Cài đặt các thư viện phụ thuộc:
+2. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
 
-3. Đảm bảo ADB đã được cài đặt và có trong PATH hệ thống.
+3. Make sure ADB is installed and in your system PATH.
 
-## 🚀 Sử Dụng
+## 🚀 Usage
 
-1. Kết nối thiết bị Android của bạn qua USB và bật chế độ Gỡ lỗi USB (USB Debugging).
+1. Connect your Android device via USB and enable USB Debugging.
 
-2. Chạy ứng dụng:
+2. Run the application:
    ```
    python adb_toolbox/main.py
    ```
+   
+   On Windows, you can use the batch file:
+   ```
+   start_adb_toolbox.bat
+   ```
 
-3. Sử dụng các phím mũi tên để điều hướng và Enter để chọn tùy chọn từ menu.
+3. Use arrow keys to navigate and Enter to select options from the menu.
 
-## 📊 Cấu Trúc Dự Án
+## 📊 Project Structure
 
 ```
 adb_toolbox/
@@ -66,32 +74,32 @@ adb_toolbox/
 └── logs/                    # Thư mục chứa file log
 ```
 
-## 🔒 Quyền Hạn
+## 🔒 Permissions
 
-Một số tính năng của ADB Toolbox yêu cầu quyền truy cập đặc biệt trên thiết bị Android:
+Some features of ADB Toolbox require special access on Android devices:
 
-- **Thiết bị đã root**: Một số tính năng như tăng bộ nhớ ảo (swap) yêu cầu quyền root.
-- **ADB qua mạng**: Tính năng kết nối không dây cần bật chế độ gỡ lỗi qua mạng.
-- **Cấp quyền USB Debugging**: Luôn cần bật chế độ gỡ lỗi USB và xác nhận kết nối ADB.
+- **Rooted devices**: Some features like increasing virtual memory (swap) require root access.
+- **ADB over network**: Wireless connection feature requires debugging over network to be enabled.
+- **USB Debugging permission**: Always needs USB debugging mode enabled and ADB connection confirmed.
 
-## 📝 Lưu Ý
+## 📝 Notes
 
-- Hãy cẩn thận khi thay đổi các cài đặt hệ thống. Một số thay đổi có thể ảnh hưởng đến hoạt động của thiết bị.
-- Luôn sao lưu dữ liệu quan trọng trước khi thực hiện các thay đổi lớn.
-- Công cụ này không chịu trách nhiệm cho bất kỳ thiệt hại nào có thể xảy ra với thiết bị của bạn.
+- Be careful when changing system settings. Some changes may affect device operation.
+- Always backup important data before making major changes.
+- This tool is not responsible for any damage that may occur to your device.
 
-## 🔄 Cập Nhật
+## 🔄 Updates
 
-Kiểm tra repository thường xuyên để cập nhật các tính năng mới và sửa lỗi.
+Check the repository regularly for new features and bug fixes.
 
-## 📜 Giấy Phép
+## 📜 License
 
-Dự án này được phân phối dưới giấy phép MIT. Xem file LICENSE để biết thêm chi tiết.
+This project is distributed under the MIT license. See the LICENSE file for more details.
 
-## 👥 Đóng Góp
+## 👥 Contributions
 
-Mọi đóng góp đều được hoan nghênh! Hãy tạo một pull request hoặc báo cáo issues nếu bạn gặp vấn đề.
+All contributions are welcome! Create a pull request or report issues if you encounter problems.
 
 ---
 
-**Lưu ý**: Công cụ này được tạo ra nhằm mục đích giáo dục và hỗ trợ người dùng. Vui lòng sử dụng có trách nhiệm. 
+**Note**: This tool was created for educational purposes and user support. Please use responsibly. 

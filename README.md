@@ -3,6 +3,9 @@
 [![English](https://img.shields.io/badge/Language-English-blue.svg)](README.md)
 [![Vietnamese](https://img.shields.io/badge/Language-Tiếng%20Việt-green.svg)](README_VI.md)
 
+![image](https://github.com/user-attachments/assets/fc1c552f-ba1a-474b-bb99-7a995256447c)
+
+
 ## 📱 Overview
 
 ADB Toolbox is a command-line interface (CLI) tool that helps users control Android devices through ADB (Android Debug Bridge) without having to remember complex commands. The software provides a user-friendly interface with interactive menus.

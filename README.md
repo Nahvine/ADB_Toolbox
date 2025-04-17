@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/954addd0-74b2-42a8-9e01-3ad73de330c4)
-
 # ADB Toolbox
 
 [![Version](https://img.shields.io/badge/version-1.1-blue.svg)](https://github.com/Nahvine/ADB_Toolbox)
@@ -7,6 +5,9 @@
 [![Vietnamese](https://img.shields.io/badge/Language-Tiếng%20Việt-green.svg)](README.vi.md)
 
 A command-line interface tool for managing Android devices via ADB without needing to remember complex commands.
+
+![image](https://github.com/user-attachments/assets/954addd0-74b2-42a8-9e01-3ad73de330c4)
+
 
 ## Features
 

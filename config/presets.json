@@ -1,0 +1,31 @@
+{
+    "Tăng tốc nhanh": [
+        "adb shell settings put global window_animation_scale 0.5",
+        "adb shell settings put global transition_animation_scale 0.5",
+        "adb shell settings put global animator_duration_scale 0.5"
+    ],
+    "Chế độ tiết kiệm pin": [
+        "adb shell settings put global low_power 1",
+        "adb shell settings put global wifi_scan_always_enabled 0",
+        "adb shell settings put global bluetooth_on 0"
+    ],
+    "Chế độ chơi game": [
+        "adb shell settings put global window_animation_scale 0.0",
+        "adb shell settings put global transition_animation_scale 0.0",
+        "adb shell settings put global animator_duration_scale 0.0",
+        "adb shell settings put global low_power 0",
+        "adb shell settings put system screen_brightness 255"
+    ],
+    "Chế độ hiển thị tốt nhất": [
+        "adb shell wm density 420",
+        "adb shell settings put system font_scale 1.15"
+    ],
+    "Khôi phục mặc định": [
+        "adb shell settings put global window_animation_scale 1.0",
+        "adb shell settings put global transition_animation_scale 1.0",
+        "adb shell settings put global animator_duration_scale 1.0",
+        "adb shell settings put global low_power 0",
+        "adb shell wm density reset",
+        "adb shell settings put system font_scale 1.0"
+    ]
+} 
